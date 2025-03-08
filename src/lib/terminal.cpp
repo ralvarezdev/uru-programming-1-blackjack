@@ -15,10 +15,10 @@ void encabezado(string titulo);
 // Función para detener el flujo del programa hasta que el usuario ingrese Enter
 void ingreseEnterParaContinuar()
 {
-    string temp;
+    string _temp;
 
     cout << "\n\nPresione 'Enter' para Continuar: ";
-    getline(cin, temp);
+    getline(cin, _temp);
 }
 
 // Función para permitir que el usuario seleccione entre dos opciones
@@ -35,6 +35,7 @@ bool seleccionSimple(string mensaje)
         c = tolower(entrada[0]);
         if (c == 'y')
             return true;
+
         else if (c == 'n')
             return false;
     } while (true);

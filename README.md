@@ -14,7 +14,7 @@ This repository contains the source code of a Blackjack terminal game, for the t
 <ol>
 <li>Clone this repository to your local machine using the following command:
 
-```git clone https://github.com/ralvarezdev/uru-blackjack```
+```git clone https://github.com/ralvarezdev/uru-programming-1-blackjack```
 </li>
 
 <li>Change your Current Working Directory to where the repository was cloned</li>
